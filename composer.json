@@ -9,11 +9,17 @@
     "license": "MIT",
     "require": {
         "php": "^7.3",
+        "crazybooot/base64-validation": "^1.0",
+        "doctrine/dbal": "^3.9",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
+        "hashids/hashids": "^4.1",
         "laravel/framework": "^8.0",
-        "laravel/tinker": "^2.0"
+        "laravel/sanctum": "^2.15",
+        "laravel/tinker": "^2.0",
+        "staudenmeir/belongs-to-through": "^2.11",
+        "staudenmeir/eloquent-has-many-deep": "^1.14"
     },
     "require-dev": {
         "facade/ignition": "^2.3.6",
